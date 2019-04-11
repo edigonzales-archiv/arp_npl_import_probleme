@@ -1,0 +1,52 @@
+java -jar /Users/stefan/apps/ili2pg-3.11.2/ili2pg.jar --dbhost 192.168.50.6 --dbdatabase pub --dbusr ddluser --dbpwd ddluser --nameByTopic --strokeArcs --createFk --createFkIdx --createGeomIdx --createBasketCol --createDatasetCol --importTid --models SO_Nutzungsplanung_20171118 --dbschema arp_npl --schemaimport
+
+
+java -jar /Users/stefan/apps/ili2pg-3.11.2/ili2pg.jar --dbhost 192.168.50.6 --dbdatabase pub --dbusr ddluser --dbpwd ddluser --disableValidation --nameByTopic --strokeArcs --createFk --createFkIdx --createGeomIdx --createBasketCol --createDatasetCol --importTid --models SO_Nutzungsplanung_20171118 --dbschema arp_npl --dataset 2477 --import 2477_2019-02-21.xtf
+
+
+
+java -jar /Users/stefan/apps/ili2pg-3.11.2/ili2pg.jar --dbhost 192.168.50.6 --dbdatabase pub --dbusr ddluser --dbpwd ddluser --disableValidation --nameByTopic --strokeArcs --createFk --createFkIdx --createGeomIdx --createBasketCol --createDatasetCol --importTid --models SO_Nutzungsplanung_20171118 --dbschema arp_npl --dataset 2586 --import 2586_2019-02-22.xtf
+
+
+
+java -jar /Users/stefan/apps/ilivalidator-1.11.0-overlap-patch/ilivalidator-1.11.0.jar --allObjectsAccessible 2477_2019-02-21.xtf
+java -jar /Users/stefan/apps/ilivalidator-1.11.0-overlap-patch/ilivalidator-1.11.0.jar --allObjectsAccessible 2586_2019-02-22.xtf
+
+
+
+
+Metzerlen-Mariastein: Genehmigung des Erschliessungsplanes Challstrasse; Torttoir und Fussgägnerübergang im Bereich der Raiffeisenbank
+
+      <SO_Nutzungsplanung_20171118.Rechtsvorschriften.HinweisWeitereDokumente>
+        <Ursprung REF="A5C4E930-068F-4B19-BBCC-84537D16F0DD"/>
+        <Hinweis REF="A854A51C-5ED5-4BBA-996C-232777062CB3"/>
+      </SO_Nutzungsplanung_20171118.Rechtsvorschriften.HinweisWeitereDokumente>
+
+
+      <SO_Nutzungsplanung_20171118.Rechtsvorschriften.HinweisWeitereDokumente>
+        <Ursprung REF="A854A51C-5ED5-4BBA-996C-232777062CB3"/>
+        <Hinweis REF="A5C4E930-068F-4B19-BBCC-84537D16F0DD"/>
+      </SO_Nutzungsplanung_20171118.Rechtsvorschriften.HinweisWeitereDokumente>
+
+
+
+
+
+      <SO_Nutzungsplanung_20171118.Rechtsvorschriften.Dokument TID="8E1218D9-C683-4CEB-8198-7F8B9CE6ED82">
+        <Titel>Regierungsratsbeschluss</Titel>
+        <OffiziellerTitel>WANGEN BEl OL TEN: Änderung der 2. Etappe zum Gestaltungsplan "Neuhäuslermatt" mit Sonderbauvorschriften / Genehmigung</OffiziellerTitel>
+        <Abkuerzung>RRB</Abkuerzung>
+        <OffizielleNr>1998/1752</OffizielleNr>
+        <Kanton>SO</Kanton>
+        <Gemeinde>2586</Gemeinde>
+        <publiziertAb>1998-08-25</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <TextImWeb>97-Wangen-bei-Olten/Entscheide/97-119-E.pdf</TextImWeb>
+        <Rechtsvorschrift>true</Rechtsvorschrift>
+      </SO_Nutzungsplanung_20171118.Rechtsvorschriften.Dokument>
+
+
+      <SO_Nutzungsplanung_20171118.Rechtsvorschriften.HinweisWeitereDokumente>
+        <Ursprung REF="49F2C94B-0E01-4D53-8591-D90734142E3B"/>
+        <Hinweis REF="49F2C94B-0E01-4D53-8591-D90734142E3B"/>
+      </SO_Nutzungsplanung_20171118.Rechtsvorschriften.HinweisWeitereDokumente>
